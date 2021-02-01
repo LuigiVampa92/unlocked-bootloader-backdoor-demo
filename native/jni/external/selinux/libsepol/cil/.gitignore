@@ -1,0 +1,13 @@
+*.swp
+*.gcda
+*.gcno
+*.o
+*.a
+unit_tests
+cov
+secilc
+docs/pdf/
+docs/html/
+docs/man8/
+policy.*
+file_contexts

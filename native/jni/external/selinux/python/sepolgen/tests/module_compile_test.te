@@ -1,0 +1,8 @@
+module module_compile_test 1.0;
+
+require {
+	type foo, bar;
+	class file { read write };
+}
+
+allow foo bar : file { read write };

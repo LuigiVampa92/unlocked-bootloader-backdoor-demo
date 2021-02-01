@@ -1,0 +1,18 @@
+name: "libpcre2"
+description: "The PCRE library is a set of functions that implement regular expression pattern matching using the same syntax and semantics as Perl 5. PCRE has its own native API, as well as a set of wrapper functions that correspond to the POSIX regular expression API. The PCRE library is free, even for building proprietary software."
+third_party {
+  url {
+    type: HOMEPAGE
+    value: "https://www.pcre.org/"
+  }
+  url {
+    type: ARCHIVE
+    value: "ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre2-10.33.zip"
+  }
+  version: "10.33"
+  last_upgrade_date {
+    year: 2019
+    month: 8
+    day: 7
+  }
+}
