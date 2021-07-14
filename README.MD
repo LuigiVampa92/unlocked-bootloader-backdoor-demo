@@ -1,5 +1,7 @@
 # Unlocked bootloader backdoor demo for Android
 
+### [An article with full explaination / Статья на хабре с полным пояснением](https://habr.com/ru/post/541190/)
+
 This is a tool that installs a custom binary into a system partition. This binary runs as a system daemon with root privileges and not restricted by SELinux policies. This tool is based on [Magisk](https://github.com/topjohnwu/Magisk) source code, but does not necessary require root or magisk preinstalled on the device. So basically this IS the magisk but only the part that injects new SELinux policies. It injects magiskinit binary in boot partition but does not install or use any other magisk tools. It also does not add any magisk files to device filesysytem, which allows it to avoid simple root detection tools, but unfortunately it is still detectable by SafetyNet.         
 
 The goal of this is to show that unlocking the bootloader can expose your device to an attacker with physical access.
